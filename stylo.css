@@ -1,0 +1,25 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+nav{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,1,43,1) 4%, rgba(9,9,121,1) 71%);
+    text-align: right;
+    padding: 40px;
+}
+#menu ul{
+    display: inline; 
+   
+}
+   
+
+#menu ul li{
+    display: inline;
+    text-decoration: none;
+    display: inline;
+    color: white;
+    margin-right: 30px;
+}
+
