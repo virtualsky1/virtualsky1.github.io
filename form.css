@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
+
+body{
+    background: linear-gradient(112.31deg, #181644 0%, #32327C 118.31%);
+}
+
+h1{
+    position: absolute;
+    width: 164px;
+    height: 26px;
+    left: 280px;
+    top:99px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.campo{
+    margin-bottom: 1.5em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;  
+    color: white; 
+    margin-left: 2em; 
+    padding-top: 1.5em;
+}
+
+.campo input[type="text"], .campo input[type="email"] {
+    padding: 0.3em;
+    margin-left: 2em;
+    border-radius: 5px;
+}
+
+#mensagem{
+left: 218px;
+top: 603px;
+background: #FFFFFF;
+border-radius: 5px;
+padding: 15em;
+margin-left: 2em;
+}
+
+.nome{
+    padding: 0.3em;
+    margin-left: 2em;
+
+}
+form{
+    position: absolute;
+    width: 955px;
+    height: 959px;
+    left: 280px;
+    top: 189px;
+    background: #443BA3;
+    border-radius: 20px;
+}
+
+
