@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
 
+:root{
+    --blue-clr1: #181644;
+    --blue-clr2: #32327C;
+}
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +12,7 @@
     list-style: none;
 }
 body{
-    background: linear-gradient(45deg, #181644 25%, #32327C 100%);
+    background: linear-gradient(45deg, var(--blue-clr1) 25%, var(--blue-clr2) 100%);
 }
 #menu{
     display: flex;
@@ -28,6 +32,24 @@ body{
     color: white;
 }
 #menu ul li{
+    border: solid 1px black;
     padding: 26px;
 }
-
+#menu ul li:hover{
+    border-bottom: solid 1px white;
+}
+main #home{
+    display: flex;
+    height: 100vh;
+    margin: 56px 0px 0px 30px;
+}
+main #home img{
+    width: 305px;
+    height: 417px;
+    margin-right: 106px;
+}
+main #home h3{
+    color: white;
+    font-family: 'Josefin Sans';
+    font-size: 56px;
+}
