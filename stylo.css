@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
 
 :root{
-    --blue-clr1: #181644;
-    --blue-clr2: #32327C;
+    --blue1-clr: #181644;
+    --blue2-clr: #32327C;
+    --blue3-clr: #514DD0;
 }
 *{
     margin: 0;
@@ -12,9 +13,10 @@
     list-style: none;
     text-decoration: none;
     color: white;
+    font-family: 'Josefin Sans';
 }
 body{
-    background: linear-gradient(135deg, var(--blue-clr1) 30%, var(--blue-clr2) 100%);
+    background: linear-gradient(135deg, var(--blue1-clr) 30%, var(--blue2-clr) 100%);
 }
 #menu{
     display: flex;
@@ -58,5 +60,29 @@ main #home h3{
     color: white;
     font-family: 'Josefin Sans';
     font-size: 56px;
+}
+/*SERVIÇOS*/
+#service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, var(--blue1-clr) 75%, var(--blue2-clr) 25%);
+}
+#service h6{
+    font-size: 32px;
+    margin: 0px 0px 60px 30px;
+}
+#service #cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border: solid 1px black;
+}
+#service #cards .card{
+    width: 230px;
+    height: 360px;
+    border-radius: 20px;
+    background-color: var(--blue3-clr);
 }
 /*RODAPÉ*/
