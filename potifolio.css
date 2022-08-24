@@ -99,3 +99,49 @@ body{
     margin: 40px;
     border-radius: 12px;
 }
+#two .twos {
+    margin: 30px;
+    padding: 5px 10px;
+    width: 1143px;
+    height: 425px;
+    left: 110px;
+    top: 645px;
+    background: #443BA3;
+    border-radius: 15px;
+    display: flex;
+
+}
+#two .twos img {
+    
+    width: 262px;
+    height: 149px;
+    left: 129px;
+    top: 666px;
+    background: url(CDProjekt_2014_logo);
+}
+.twos .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.twos .text p{
+    margin: 40px;
+    margin-bottom: auto;
+    width: 760px;
+    height: 69px;
+    left: 450px;
+    top: 677px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+}
+.twos .text .photo img{
+    width: auto;
+    height: 100px;
+    margin: 40px;
+    border-radius: 12px;
+
+}
