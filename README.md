@@ -6,7 +6,7 @@ Oferece serviço de armazenamento em nuvem, especificamente para jogos, afim de 
 
 ### Por que o projeto é útil
 
-A nossa missão é garantir que o entretenimento seja de fácil acesso, sendo assim, ofertamos um grande acervo de jogos 
+A nossa missão é garantir que o entretenimento seja de fácil acesso, sendo assim, a utilidade do nosso projeto se dá no poder de conectar jogadores, sincronizar o conteúdo, salvar e guardar o progresso de cada jogador.
 
 #### Como os usuários podem começar a usar o projeto
 
