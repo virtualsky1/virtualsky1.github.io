@@ -21,3 +21,8 @@ e no campo **mensagem** pode detalhar o problema. E para finalizar só clicar no
 
 ###### Quem mantém e contribui com o projeto
 
+Pelos alunos da disciplina de Gerência de Configuração e Mudanças 
+[Mikael Stanley](https://github.com/mikaelStl)
+[Lariany Alves](https://github.com/larianyalves)
+[Leticia Esttrela](https://github.com/leticiaesttrela)
+
