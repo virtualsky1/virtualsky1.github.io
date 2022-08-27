@@ -5,51 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="potifolio.css">
-    <title>VirtualSky</title>
+    <title>VirtualSky - Portfólio</title>
 </head>
 <body>
-    <main>
-        <nav id="menu">
-            <img src="./images/LOGO.png" alt="virtualSky">
-            <ul>
-                <li><a href="index.html">INÍCIO</a></li>
-                <li><a href="#">PORTFÓLIO</a></li>
-                <li><a href="contato.html">CONTATOS</a></li>
-            </ul>
-        </nav>
-        <div id="titulo">
-            <h3>EMPRESAS QUE USAM NOSSOS SERVIÇOS</h3>
-        </div>
-        <class id="cards">
+    <nav id="menu">
+        <img src="./images/LOGO.png" alt="virtualSky">
+        <ul>
+            <li><a href="index.html">INÍCIO</a></li>
+            <li><a href="#">PORTFÓLIO</a></li>
+            <li><a href="contato.html">CONTATOS</a></li>
+        </ul>
+    </nav>
+    <div id="titulo">
+        <h3>NOSSOS COMPANHEIROS</h3>
+    </div>
+    <section id="cards">
             <div class="card">
-                <img src="./images/SonySantaMonicaStudioLogo.png">
+                <img src="./images/SonySantaMonicaStudioLogo.png" height="260">
                 <div class="resumo">
                     <p>Produtora de jogos estadonidense, fundanda em 1999, é responsável pela criação da franquia
                     God of War, e desde 2019 somos gratos por poder hospedar o seu jogo mais renomado, além 
                     de confiar a nós o seu próximo lançamento.</p>
                     <div class="imgs">
-                        <img src="./images/gow.jpg">
-                        <img src="./images/God_of_War_Ragnarök_capa.jpg">
+                        <figure>
+                            <img src="./images/gow.jpg" height="224">
+                            <figcaption>God of War</figcaption>
+                            <figcaption>(Disponível)</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/God_of_War_Ragnarök_capa.jpg" height="224">
+                            <figcaption>God of War: Ragnarok</figcaption>
+                            <figcaption>(Em breve)</figcaption>
+                        </figure>
                     </div>
                 </div>
             </div>
-        </class>
-        <class id="two">
-            <div class="twos">
-                <img src="/images/CDProjekt_2014_logo.svg.png">
-                <div class="text">
+            <div class="card">
+                <img src="/images/CDProjekt_2014_logo.svg.png" height="200">
+                <div class="resumo">
                    <p> Desenvolvedora e produtora de jogos polonesa, fundada em 1994. Está conosco desde 2020, 
                     disponibilizando dois de seus jogos para rodar em nossos servidores, sendo um deles disponibilizado
                     já no lançamento.</p>
-                    <div class="photo">
-                        <img src="/images/TW3_Wild_Hunt.png">
-                        <img src="/images/Cyberpunk_2077_capa.png">
+                    <div class="imgs">
+                        <figure>
+                            <img src="/images/TW3_Wild_Hunt.png" height="224">
+                            <figcaption>The Witcher: Wild Hunt</figcaption>
+                            <figcaption>(Disponível)</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="/images/Cyberpunk_2077_capa.png" height="224">
+                            <figcaption>Cyberpunk 2077</figcaption>
+                            <figcaption>(Disponível)</figcaption>
+                        </figure>
                     </div>
                 </div>
             </div>
-        </class>
-            
-    </main>
+            <div class="card">
+                <img src="./images/SonySantaMonicaStudioLogo.png" height="260">
+                <div class="resumo">
+                    <p>Produtora de jogos estadonidense, fundanda em 1999, é responsável pela criação da franquia
+                    God of War, e desde 2019 somos gratos por poder hospedar o seu jogo mais renomado, além 
+                    de confiar a nós o seu próximo lançamento.</p>
+                    <div class="imgs">
+                        <figure>
+                            <img src="./images/" height="224">
+                            <figcaption>The Last of Us: Parte 1</figcaption>
+                            <figcaption>(Em breve)</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./images/" height="224">
+                            <figcaption>The Last of Us: Parte 2</figcaption>
+                            <figcaption>(Disponível)</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="produtos">
+        <h3>NOSSOS SERVIÇOS</h3>
+        <p>Nossa empresa oferece 2 tipos de serviços, um direcionado às empresas e outro ao público casual. 
+            Abaixo você poderá ver detalhes sobre cada serviço.</p>
+        <div>
+            <dl id="serv">
+                <dt>Amazenamento em nuvem</dt>
+                <dd>Este serviço é direcionado as empresas que desejam facilitar o salvamento
+                   de progressos dentro dos jogos,
+                </dd>
+            </dl>
+        </div>
+    </section>
     <footer class="rodape">
         <div>
             <img src="images/LOGO.png" alt="logo">

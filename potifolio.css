@@ -15,8 +15,7 @@
     color: white;
 }
 body{
-    background-color: #181644;
-}
+    background: linear-gradient(135deg, var(--blue1-clr) 45%, var(--blue2-clr) 100%);}
 #menu{
     display: flex;
     justify-content: space-between;
@@ -49,7 +48,7 @@ body{
     border-bottom: solid 1px white; 
 }
 #titulo{
-    margin: 40px;
+    margin: 40px 0px 0px 30px;
     padding: 5px 10px;
     left: 129px;
     top: 131px;
@@ -58,23 +57,20 @@ body{
     font-size: 15px;
     color: white;
 }
+/*EMPRESAS E JOGOS*/
+#cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 #cards .card{
     margin: 30px;
     padding: 5px 10px;
     width: 1143px;
-    height: 425px;
-    left: 110px;
-    top: 160px;
     background: #443BA3;
     border-radius: 15px;
     display: flex;
-}
-#cards .card img {
-    width: 231px;
-    height: 260px;
-    left: 129px;
-    top: 181px;
-    background: url(SonySantaMonicaStudioLogo.png);
 }
 .card .resumo{
     display: flex;
@@ -83,65 +79,77 @@ body{
 }
 .card .resumo p{
     margin: 40px;
-    margin-bottom: auto;
-    width: 709px;
-    height: 69px;
-    left: 450px;
-    top: 181px;
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 15px;
-    text-align: left;
 }
-.card .resumo .imgs img{
-    width: 100px;
-    margin: 40px;
-    border-radius: 12px;
-}
-#two .twos {
-    margin: 30px;
-    padding: 5px 10px;
-    width: 1143px;
-    height: 425px;
-    left: 110px;
-    top: 645px;
-    background: #443BA3;
-    border-radius: 15px;
+.card .resumo .imgs{
     display: flex;
-
 }
-#two .twos img {
-    
-    width: 262px;
-    height: 149px;
-    left: 129px;
-    top: 666px;
-    background: url(CDProjekt_2014_logo);
-}
-.twos .text{
+.card .resumo .imgs figure{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.twos .text p{
     margin: 40px;
-    margin-bottom: auto;
-    width: 760px;
-    height: 69px;
-    left: 450px;
-    top: 677px;
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    text-align: left;
+    font-size: 14px;
 }
-.twos .text .photo img{
-    width: auto;
-    height: 100px;
-    margin: 40px;
+.card .resumo .imgs figure img{
+    margin-bottom: 12px;
     border-radius: 12px;
-
+}
+/*PRODUTOS*/
+#produtos{
+    height: 100vh;
+    background-color: white;
+}
+#produtos h3{
+    padding: 40px;
+    font-family: 'Josefin Sans';
+    font-weight: bolder;
+    font-size: 12px;
+    color: black;
+}
+#produtos p{
+    margin-left: 40px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: rgb(29, 29, 29);
+}
+#produtos #serv{
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+}
+/*RODAPÉ.*/
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 14px;
+    margin-top: 25px;
+}
+.rodape div img{
+    width: 147px;
+    height: 22px;
+}
+.rodape div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    width: 75vw;
+    border-bottom: solid 1px white;
+}
+.rodape div ul{
+    display: flex;
+    justify-content: space-between;
+}
+.rodape div ul li{
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 8px 20px 8px 20px;
+}
+.rodape .descricao{
+    margin: 15px;
 }

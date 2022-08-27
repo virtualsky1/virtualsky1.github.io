@@ -48,13 +48,15 @@ body{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 3%, rgba(255, 255, 255, 0) 80%);
     border-bottom: solid 1px white;
 }
+/* INICIO */
 #home{
-    position: absolute;
-    height: 100vh;
+    height: 90vh;
     background: linear-gradient(116.82deg, #181644 0%, #1B1A4B 12.66%, #32327C 100%);
 }
 #home #content{
     display: flex;
+}
+#home #content #texto{
     margin: 60px 0px 0px 30px;
 }
 #home #content #texto p{
@@ -66,7 +68,7 @@ body{
 #home #content img{
     width: 300px;
     height: 412px;
-    margin-right: 120px;
+    margin:60px 120px 0px 0px;
 }
 #home div h3{
     color: white;
@@ -78,12 +80,10 @@ body{
     height: 100vh;
     font-family: 'Josefin Sans';
     background: linear-gradient(70.67deg, #181644 0%, #32327C 112.77%);
-    /* border: solid 1px black; */
 }
 #about-us h1{
     font-size: 32px;
     padding: 60px 0px 0px 60px;
-    /* border: solid 1px red; */
 }
 #about-us p{
     width: 50vw;
@@ -91,7 +91,6 @@ body{
     font-size: 32px;
     font-weight: lighter;
     font-family: 'Poppins';
-    border: solid 1px purple;
 }
 /*SERVIÇOS*/
 #service{
@@ -101,7 +100,6 @@ body{
     height: 100vh;
     font-family: 'Josefin Sans';
     background: linear-gradient(67.62deg, #181644 27.67%, #32327C 160.8%);
-    /* border: solid 1px orange; */
 }
 #service h6{
     font-size: 32px;
@@ -118,6 +116,7 @@ body{
     border-radius: 20px;
     background-color: var(--blue3-clr);
 }
+/*VANTAGENS*/
 /*RODAPÉ.*/
 .rodape{
     display: flex;
@@ -127,7 +126,6 @@ body{
     font-size: 14px;
     margin-top: 25px;
     background-color: #181644;
-    border: solid 1px green;
 }
 .rodape div img{
     width: 147px;
