@@ -79,15 +79,17 @@ body{
     display: flex;
 }
 .card img{
-    margin: 40px;
+    margin: 20px;
 }
 .card .resumo{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 580px;
+    margin-left: 20px;
 }
 .card .resumo p{
-    margin: 40px;
+    margin-top: 40px;
     font-family: 'Poppins';
     font-size: 15px;
 }
