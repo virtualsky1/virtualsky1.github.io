@@ -43,7 +43,10 @@ body{
 }
 #menu ul li{
     margin-left: 10px;
-    padding: 8px 26px;
+}
+#menu ul li a{
+    display: block;
+    padding: 8px 22px 8px 22px;
 }
 #menu ul li:hover{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 3%, rgba(255, 255, 255, 0) 80%);
