@@ -15,7 +15,7 @@
     color: white;
 }
 body{
-    background-color: #181644;
+    background: linear-gradient(116.82deg, #181644 0%, #1B1A4B 12.66%, #32327C 100%);
 }
 a{
     text-decoration: none;
@@ -60,7 +60,6 @@ a{
 /* INICIO */
 #home{
     height: 90vh;
-    background: linear-gradient(116.82deg, #181644 0%, #1B1A4B 12.66%, #32327C 100%);
 }
 #home #content{
     display: flex;
@@ -82,14 +81,13 @@ a{
 #about-us{
     height: 100vh;
     font-family: 'Josefin Sans';
-    background: linear-gradient(70.67deg, #181644 0%, #32327C 112.77%);
 }
 #about-us h1{
     font-size: 32px;
     padding: 60px 0px 0px 60px;
 }
 #about-us p{
-    width: 50vw;
+    width: 75vw;
     margin: 20px 0px 0px 120px;
     font-size: 32px;
     font-weight: lighter;
@@ -102,12 +100,11 @@ a{
     justify-content: space-around;
     height: 100vh;
     font-family: 'Josefin Sans';
-    background: linear-gradient(67.62deg, #181644 27.67%, #32327C 160.8%);
 }
 #service #titulo{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
 }
 #service #titulo h6{
     font-size: 32px;
@@ -120,11 +117,13 @@ a{
     border: none;
     border-radius: 50px;
     margin: 20px 0px 20px 0px;
-    color: var(--blue3-clr);
     background-color: white;
     cursor: pointer;
     font-family: 'Josefin Sans';
     font-size: 16px;
+}
+#service #titulo button a{
+    color: var(--blue3-clr);
 }
 #service #cards{
     display: flex;
@@ -165,6 +164,37 @@ a{
     color: #6561e6;
 }
 /*VANTAGENS*/
+#vantagens{
+    height: 50vh;
+    font-family: 'Josefin Sans';
+}
+#vantagens h5{
+    margin: 50px;
+}
+#vantagens #infos{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 30px;
+}
+#vantagens #infos .detalhes{
+    width: 320px;
+    font-family: 'Poppins';
+    margin-left: 120px;
+    /* border: solid 1px red; */
+}
+#vantagens #infos .detalhes .name{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    /* border: solid 1px green; */
+}
+#vantagens #infos .detalhes .name p{
+    margin-left: 12px;
+    font-size: 18px;
+}
+#vantagens #infos .detalhes p{
+    margin-left: 30px;
+}
 /*RODAPÉ.*/
 .rodape{
     display: flex;
@@ -173,7 +203,6 @@ a{
     font-family: 'Poppins';
     font-size: 14px;
     margin-top: 25px;
-    background-color: #181644;
 }
 .rodape div img{
     width: 147px;
