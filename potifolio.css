@@ -15,6 +15,7 @@
     color: white;
 }
 body{
+    
     background-color: #181644;
 }
 #menu{
@@ -95,7 +96,7 @@ body{
     text-align: left;
 }
 .card .resumo .imgs img{
-    width: 100px;
+    width: 100%;
     margin: 40px;
     border-radius: 12px;
 }
@@ -113,8 +114,8 @@ body{
 }
 #two .twos img {
     
-    width: 262px;
-    height: 149px;
+    width: 250px;
+    height: 256px;
     left: 129px;
     top: 666px;
     background: url(CDProjekt_2014_logo);
@@ -139,7 +140,7 @@ body{
     text-align: left;
 }
 .twos .text .photo img{
-    width: auto;
+    
     height: 100px;
     margin: 40px;
     border-radius: 12px;
