@@ -1,23 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylo.css">
+    <link rel="shortcut icon" href="./images/" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
     <title>VirtualSky</title>
 </head>
 <body>
-
     <nav id="menu">
+        <img src="./images/LOGO.png" alt="virtualSky">
         <ul>
-            <li>INÍCIO</li>
-            <li>PRODUTOS</li>
-            <li>CONTATOS</li>
+            <li><a href="#">INÍCIO</a></li>
+            <li><a href="portfolio.html">PORTFÓLIO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
         </ul>
     </nav>
-    
-    <main>
-        <h1>Virual Sky</h1>
-    </main>
+    <section id="home">
+        <div id="content">
+            <div id="texto">
+                <h3>O PRÓXIMO NÍVEL DE ENTRETENIMENTO</h3>
+            </div>
+            <img src="./images/simbol1.png" alt="Nuvem ligada a um controle de vídeo game">
+        </div>
+    </section>
+    <section id="about-us">
+        <h1>QUEM SOMOS</h1>
+        <p>Somos uma empresa brasileira de armazenamento em nuvem, atualmente focamos nosso trabalho para jogos.
+           Começamos na área em 2016, com armazenamento de arquivos, hoje temos um serviço de streaming de jogos,
+            onde você pode acessar jogos no nosso catálogo de onde estiver e de qualquer dispositivo, basta ter internet.
+        </p>
+    </section>
+    <section id="service">
+        <div id="titulo">
+            <h6>SERVIÇOS</h6>
+            <button><a href="portfolio.html#produtos">Saiba mais ></a></button>
+        </div>
+        <div id="cards">
+            <div class="card">
+                <img src="./images/save.png" alt="Nuvem e uma pasta de arquivos" height="170">
+                <div class="desc">
+                    <h3>Saves em Nuvem</h3>
+                    <p>Para empresas que buscam facilitar o metodo de salvar o progresso do jogador,</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/streaming.png" height="170">
+                <div class="desc">
+                    <h3>Streaming de jogos</h3>
+                    <p>Jogue seus jogos preferidos de onde quiser e de qualquer dispositivo.</p>
+                </div>
+            </div>
+            <div id="price">
+                <h1>STREAMING DE JOGOS</h1>
+                <h2>26,00</h2>
+                <h2>R$/mês</h2>
+            </div>
+        </div>
+    </section>
+    <section id="vantagens">
+        <h5>VANTAGENS</h5>
+        <div id="infos">
+            <div class="detalhes">
+                <div class="name">
+                    <i class="fa fa-cloud" aria-hidden="true"></i>
+                    <p>DESEMPENHO</p>
+                </div>
+                <p>Não se preocupe com travamentos ou lag durante sua jogatina, disponibilizamos servidores velozes.</p>
+            </div>
+            <div class="detalhes">
+                <div class="name">
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                    <p>COMPATIBILIDADE</p>
+                </div>
+                <p>Jogue de qualquer dispositivo, independentemente do hardware.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="rodape">
+        <div>
+            <img src="images/LOGO.png" alt="logo">
+            <ul class="contact">
+                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li><a href="contato.html">Contate-nos</a></li>
+            </ul>
+        </div>
+        <p class="descricao">Copyright &copy VirtualSky 2022</p>
+    </footer>
 </body>
 </html>
